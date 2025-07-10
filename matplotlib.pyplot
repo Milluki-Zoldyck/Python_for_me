@@ -1,0 +1,11 @@
+fig = figure(figsize) 図を描く大きさ
+ax = gca() 図の変数名
+
+plot(点1,点2,線の名前,線の太さ)
+
+text(x座標,y座標,文字,サイズ,option)
+option_example
+ha='center' or 'left' or 'right' テキストのどの部分を座標にそろえるかの指定。
+
+set_xlim(x1, x2) x座標はx1~x2
+set_ylim(y1, y2)
