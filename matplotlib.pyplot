@@ -17,4 +17,5 @@ text(x座標,y座標,文字,サイズ,option)
   ha='center' or 'left' or 'right' テキストのどの部分を座標にそろえるかの指定。
 
 xlabel(string)
+  第二引数に fontname = 'MS Gothic' で日本語表記が可能
 ylabel(string)
