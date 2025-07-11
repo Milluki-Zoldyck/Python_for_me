@@ -1,12 +1,16 @@
 #'plt.'は省略
 
+arange(num1,num2,interval) num1からnum2までintervalごとに配列に入れる。
 ax = gca() 図の変数名
 
 fig = figure(figsize) 図を描く大きさ
 
 grid(True) 掛け線を表示
 
-plot(点1,点2,線の名前,線の太さ)
+plot(点1,点2)　
+  点と点の間を線で結ぶ（配列で渡したとき）
+  線の太さを指定できる　linewidth = 2 など
+  線のスタイルを指定できる　linestyle = 'dashed' など
 
 scatter(x,y) 座標を点でプロット
 set_xlim(x1, x2) x座標はx1~x2
